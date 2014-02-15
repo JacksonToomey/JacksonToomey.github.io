@@ -1,0 +1,39 @@
+body
+{
+    padding-top: 60px;
+}
+
+a
+{
+    color: #a52719;
+}
+
+.post
+{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #F3E5C4;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px #888;
+    color: #b82;
+}
+
+.navbar
+{
+    background-color: #141921;
+}
+
+.profile-box
+{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #9CAC8B;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.profile-box img
+{
+    width: 100%;
+}

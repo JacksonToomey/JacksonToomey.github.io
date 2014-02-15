@@ -1,1 +1,17 @@
-Hello World
+---
+layout: page
+name: Home
+title: Welcome!
+---
+
+
+{% for post in paginator.posts %}
+ <div class="post">
+<h1>{{post.title}} - {{post.date | date_to_string}}</h1>
+<div class="row">
+  <div class="col-md-12">
+   {{post.excerpt}}<p><a href="{{post.url}}">See More...</a></p>
+  </div>
+</div>
+</div>
+{% endfor %}
