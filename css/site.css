@@ -1,6 +1,7 @@
 body
 {
     padding-top: 60px;
+    background-color: #f76;
 }
 
 a
@@ -15,7 +16,7 @@ a
     border-radius: 10px;
     background-color: #F3E5C4;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #111;
     color: #b82;
 }
 
@@ -30,10 +31,20 @@ a
     border-radius: 10px;
     padding: 3px;
     background-color: #9CAC8B;
-    box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #111;
 }
 
 .profile-box img
 {
     width: 100%;
+}
+
+#paginator ul
+{
+    list-style-type: none;
+}
+
+#paginator li 
+{
+    display: inline;
 }
