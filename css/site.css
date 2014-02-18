@@ -37,6 +37,7 @@ a
 .profile-box img
 {
     width: 100%;
+    border: 2px solid #a52719;
 }
 
 #paginator ul
