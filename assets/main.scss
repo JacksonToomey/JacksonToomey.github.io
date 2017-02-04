@@ -1,10 +1,19 @@
 ---
 ---
 #main {
-    margin-top: 55px;
+    margin-top: 60px;
 
     .blog-preview {
         border-radius: 0;
-        box-shadow: 2px 2px 1px gray;
+        box-shadow: 5px 5px 0px gray;
     }
+}
+
+.post-date {
+    font-size: 1.05em;
+}
+
+.post-exceprt,
+.post-content {
+    margin-top: 10px;
 }

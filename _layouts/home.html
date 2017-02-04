@@ -5,8 +5,11 @@ layout: default
     <div class="panel panel-default blog-preview">
         <div class="panel-body">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <span class="post-date"><i class="glyphicon glyphicon-calendar"></i> {{ post.date | date_to_string }}</span>
+          <div class="post-exceprt">
           {{ post.excerpt }}
           <a href="{{ post.url }}">See more..</a>
+          </div>
         </div>
     </div>
   {% endfor %}

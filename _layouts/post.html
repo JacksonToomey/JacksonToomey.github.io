@@ -2,4 +2,7 @@
 layout: default
 ---
 <h3>{{ page.title }}</h3>
-{{ content }}
+<span class="post-date"><i class="glyphicon glyphicon-calendar"></i> {{ page.date | date_to_string }}</span>
+<div class="post-content">
+    {{ content }}
+</div>
