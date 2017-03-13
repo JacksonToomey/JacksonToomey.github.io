@@ -1,19 +1,31 @@
 ---
 ---
-#main {
-    margin-top: 60px;
-
-    .blog-preview {
-        border-radius: 0;
-        box-shadow: 5px 5px 0px gray;
-    }
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.post-date {
-    font-size: 1.05em;
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-.post-exceprt,
-.post-content {
+h1 {
+    text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content {
+    padding: 10px;
+
+    .post-blurb {
+        margin-bottom: 40px;
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        .post-date {
+            margin-bottom: 10px;
+        }
+    }
 }
