@@ -9,10 +9,13 @@ body {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.header {
+    background-color: #eee;
+    padding: 10px;
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 
 #content {
