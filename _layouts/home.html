@@ -3,8 +3,10 @@ layout: default
 ---
 {% for post in site.posts %}
   <div class="post-blurb">
-    <h3>{{ post.title }}</h3>
-    <div class="post-date">{{ post.date | date_to_string }}</div>
+    <h3>
+      {{ post.title }}
+    </h3>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content }}
   </div>
  {% endfor %}
