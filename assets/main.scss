@@ -24,6 +24,10 @@ body {
     margin-right: auto;
     margin-left: auto;
 
+    @media screen and (max-width: 980px) {
+        width: 80%;
+    }
+
     .post-blurb {
         margin-bottom: 50px;
         h3 {
